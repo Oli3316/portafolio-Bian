@@ -1,0 +1,122 @@
+.titulo-index-1 {
+  font-size: 60px;
+  color: black;
+  font-family: auto;
+  letter-spacing: 8px;
+}
+
+.parrafo-index-1 {
+  font-size: 30px;
+  color: black;
+  letter-spacing: 8px;
+}
+
+a {
+  font-size: 20px;
+  color: black !important;
+  font-style: oblique;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  z-index: 10;
+}
+
+header.abajo {
+  background-color: rgba(158, 158, 158, 0.77);
+  -webkit-transition: 2.5s;
+  transition: 2.5s;
+}
+
+.navbar ul li a {
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://jarallax.nkdev.info/images/image5.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.bgimg-2 {
+  background-image: url(https://www.wallpapertip.com/wmimgs/68-689040_dr-dre-wallpaper-download-minimal-black-wallpaper-4k.jpg);
+  min-height: 70vh;
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-1 {
+  padding: 150px;
+}
+
+.contenedor-presentacion {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.contenedor-presentacion h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  font-style: normal;
+  -webkit-font-variant-ligatures: normal;
+          font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: normal;
+  font-family: Lato, sans-serif;
+  color: #111;
+}
+
+@media (min-width: 320px) and (max-width: 528px) {
+  .contenedor-presentacion {
+    padding: 34px;
+  }
+  .contenedor-1 {
+    display: block;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
