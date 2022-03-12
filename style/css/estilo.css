@@ -39,10 +39,10 @@ header.abajo {
   transition: 0.5s;
 }
 
+/*
 .navbar ul li a:hover {
   background-color: white;
-}
-
+}*/
 * {
   margin: 0;
   padding: 0;
@@ -113,7 +113,8 @@ html {
 
 @media (min-width: 320px) and (max-width: 528px) {
   .contenedor-presentacion {
-    padding: 34px;
+    padding: 24px;
+    height: 1000px;
   }
   .contenedor-1 {
     display: block;
