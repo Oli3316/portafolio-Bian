@@ -63,7 +63,8 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-position: center; }
 
 .bgimg-2 {
   background-image: url(https://www.wallpapertip.com/wmimgs/68-689040_dr-dre-wallpaper-download-minimal-black-wallpaper-4k.jpg);
