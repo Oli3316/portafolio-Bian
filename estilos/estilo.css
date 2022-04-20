@@ -13,8 +13,9 @@ a {
   font-size: 20px;
   font-style: oblique; }
 
-a:hover {
-  color: white !important; }
+a:hover:not(.a-proyectos) {
+  color: black !important;
+  text-decoration: overline; }
 
 .nav-link {
   color: black !important;
@@ -32,8 +33,11 @@ header {
   transition: 0.7s;
   z-index: 10; }
 
+.dropdown-menu {
+  border: none !important; }
+
 header.abajo {
-  background-color: rgba(158, 158, 158, 0.77);
+  background-color: white;
   transition: 2.5s; }
 
 .navbar ul li a {
@@ -76,9 +80,47 @@ header.abajo {
   color: black; }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #ffffff;
   color: white;
   transform: rotateY(180deg); }
+  .flip-card-back h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: normal;
+    font-family: Lato, sans-serif;
+    color: #111;
+    font-weight: bold; }
+  .flip-card-back h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-family: Lato, sans-serif;
+    color: #111; }
+  .flip-card-back #btn-proyecto {
+    margin: 0px 60px 0px 60px; }
+    .flip-card-back #btn-proyecto a {
+      font-family: inherit;
+      color: white;
+      text-decoration: none; }
 
 * {
   margin: 0;
@@ -102,7 +144,7 @@ html {
   background-position: center; }
 
 .bgimg-2 {
-  background-image: url(https://www.wallpapertip.com/wmimgs/68-689040_dr-dre-wallpaper-download-minimal-black-wallpaper-4k.jpg);
+  background-image: url(https://jarallax.nkdev.info/images/image5.jpg);
   min-height: 70vh;
   background-color: transparent;
   font-size: 25px;

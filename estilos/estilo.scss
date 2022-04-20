@@ -1,8 +1,10 @@
 @import "_titulosyparrafos.scss";
 @import "_nav.scss";
 @import "_cards.scss";
+@import '_buttonToggle.scss'
 
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,7 +31,7 @@ html {
 }
 
 .bgimg-2 {
-  background-image: url(https://www.wallpapertip.com/wmimgs/68-689040_dr-dre-wallpaper-download-minimal-black-wallpaper-4k.jpg);
+  background-image: url(https://jarallax.nkdev.info/images/image5.jpg);
   min-height: 70vh;
   background-color: transparent;
   font-size: 25px;

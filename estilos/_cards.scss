@@ -37,4 +37,47 @@
   background-color: #ffffff;
   color: white;
   transform: rotateY(180deg);
+  h1{
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 15px;
+        line-height: normal;
+        font-family: Lato, sans-serif;
+        color: #111;
+        font-weight: bold;
+  }
+  h2{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-family: Lato, sans-serif;
+    color: #111;
+  }
+
+  #btn-proyecto{
+    margin: 0px 60px 0px 60px;
+    a{
+      font-family: inherit;
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
