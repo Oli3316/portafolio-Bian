@@ -132,6 +132,10 @@ html {
   background-color: #2a2f3b;
 }
 
+footer{
+  position: sticky;
+  bottom: 0;
+}
 @media (min-width: 320px) and (max-width: 528px) {
   .contenedor-presentacion {
     padding: 24px;
@@ -140,6 +144,11 @@ html {
   .contenedor-1 {
     display: block;
   }
+  .navbar-collapse{
+    text-align: inherit;
+    width: 100%;
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 380px) {
@@ -147,5 +156,19 @@ html {
     li{
       margin: 0px 2px 0px 2px !important;
     }
+    a.dropdown-item{
+      font-size: 10px;
+    }
+  }
+  }
+
+@media (min-width:320px) and (max-width: 991px){
+  ul.dropdown-menu{
+    text-align: center;
+  }
+  a.dropdown-item {
+    
+      font-size: 12px;
+    
   }
 }
