@@ -36,6 +36,11 @@ header {
 .dropdown-menu {
   border: none !important; }
 
+.dropdown-item {
+  white-space: normal !important;
+  font-size: 15px;
+  margin-top: 10px; }
+
 header.abajo {
   background-color: white;
   transition: 2.5s; }
@@ -45,10 +50,6 @@ header.abajo {
   border-radius: 10px;
   transition: 0.5s; }
 
-/*
-.navbar ul li a:hover {
-  background-color: white;
-}*/
 .flip-card {
   background-color: transparent;
   width: 300px;

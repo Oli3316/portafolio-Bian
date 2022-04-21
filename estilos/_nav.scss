@@ -30,6 +30,12 @@ header {
   border: none !important; 
 }
 
+.dropdown-item {
+  white-space: normal !important;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
 header.abajo {
   background-color: rgb(255, 255, 255);
   transition: 2.5s;
@@ -40,7 +46,3 @@ header.abajo {
   border-radius: 10px;
   transition: 0.5s;
 }
-/*
-.navbar ul li a:hover {
-  background-color: white;
-}*/
