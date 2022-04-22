@@ -9,11 +9,23 @@
   color: black;
   letter-spacing: 8px; }
 
-a {
-  font-size: 20px;
-  font-style: oblique; }
+.sweetAlert {
+  margin: 0 auto;
+  right: 0;
+  width: 30%;
+  height: 100%; }
+  .sweetAlert .swal2-title {
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font: 17px "Lato", sans-serif;
+    color: black; }
 
-a:hover:not(.a-proyectos) {
+a {
+  font-size: 20px; }
+
+a:hover:not(.button-proyecto) {
   color: black !important;
   text-decoration: overline; }
 
@@ -25,6 +37,9 @@ a:hover:not(.a-proyectos) {
   letter-spacing: 5px;
   text-transform: uppercase;
   font-size: 20px; }
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0) !important; }
 
 header {
   width: 100%;
@@ -141,12 +156,38 @@ header.abajo {
     line-height: normal;
     font-family: Lato, sans-serif;
     color: #111; }
-  .flip-card-back #btn-proyecto {
-    margin: 0px 60px 0px 60px; }
-    .flip-card-back #btn-proyecto a {
-      font-family: inherit;
-      color: white;
-      text-decoration: none; }
+  .flip-card-back a:not(:hover) {
+    font-family: inherit;
+    color: black;
+    text-decoration: none; }
+  .flip-card-back .button-proyecto {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    outline: 2px solid #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-bottom: groove; }
+  .flip-card-back .button-proyecto:hover {
+    color: white; }
+  .flip-card-back .button-proyecto::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: black;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 1s; }
+  .flip-card-back .button-proyecto:hover::before {
+    width: 150%; }
 
 * {
   margin: 0;

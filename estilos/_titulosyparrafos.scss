@@ -9,3 +9,18 @@
   color: rgb(0, 0, 0);
   letter-spacing: 8px;
 }
+.sweetAlert {
+  margin: 0 auto;
+  right: 0;
+  width: 30%;
+  height: 100%;
+    .swal2-title{
+      display: block;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font: 17px "Lato", sans-serif;
+      color: black;
+
+    }
+}
