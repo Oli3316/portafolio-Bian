@@ -50,6 +50,31 @@ header.abajo {
   border-radius: 10px;
   transition: 0.5s; }
 
+.hamburger {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-color: transparent !important; }
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: black;
+  margin-block: 10px;
+  border-radius: 4px;
+  transition: transform .5s, opacity .25s; }
+
+.hamburger.active .line:nth-child(1) {
+  transform: translateY(13px) rotate(45deg); }
+
+.hamburger.active .line:nth-child(2) {
+  opacity: 0; }
+
+.hamburger.active .line:nth-child(3) {
+  transform: translateY(-13px) rotate(-45deg); }
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -220,7 +245,7 @@ html {
   transform: translate(0, -10px); }
 
 .social-menu ul li:nth-child(1) a:hover {
-  background-color: #3b5999; }
+  background-color: #25d366; }
 
 .social-menu ul li:nth-child(2) a:hover {
   background-color: #0a66c2; }
