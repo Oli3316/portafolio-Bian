@@ -37,28 +37,28 @@
   background-color: #ffffff;
   color: white;
   transform: rotateY(180deg);
-  h1{
-        text-align: center;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        font-style: normal;
-        font-variant-ligatures: normal;
-        font-variant-caps: normal;
-        font-variant-numeric: normal;
-        font-variant-east-asian: normal;
-        font-weight: normal;
-        font-stretch: normal;
-        font-size: 15px;
-        line-height: normal;
-        font-family: Lato, sans-serif;
-        color: #111;
-        font-weight: bold;
+  h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: normal;
+    font-family: Lato, sans-serif;
+    color: #111;
+    font-weight: bold;
   }
-  h2{
+  h2 {
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Lato', sans-serif;
     font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
@@ -71,13 +71,13 @@
     font-family: Lato, sans-serif;
     color: #111;
   }
-    a:not(:hover){
-      font-family: inherit;
-      color: rgb(0, 0, 0);
-      text-decoration: none;
-    }
+  a:not(:hover) {
+    font-family: inherit;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
 
-  .button-proyecto{
+  .button-proyecto {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -92,11 +92,11 @@
     border-bottom: groove;
   }
 
-  .button-proyecto:hover{
+  .button-proyecto:hover {
     color: rgb(255, 255, 255);
   }
-  .button-proyecto::before{
-    content: "";
+  .button-proyecto::before {
+    content: '';
     position: absolute;
     top: 0;
     left: -50px;
@@ -107,7 +107,10 @@
     z-index: -1;
     transition: width 1s;
   }
-  .button-proyecto:hover::before{
+  .button-proyecto:hover::before {
     width: 150%;
   }
+}
+img.avatar {
+  border: 12px solid white;
 }

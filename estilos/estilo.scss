@@ -1,10 +1,8 @@
-@import "_titulosyparrafos.scss";
-@import "_nav.scss";
-@import "_cards.scss";
+@import '_titulosyparrafos.scss';
+@import '_nav.scss';
+@import '_cards.scss';
 
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +15,7 @@ html {
 
 .parallax {
   /* The image used */
-  background-image: url("https://jarallax.nkdev.info/images/image5.jpg");
+  background-image: url('../img/FondoPortafolioBian.jpg');
 
   /* Full height */
   height: 100%;
@@ -43,7 +41,7 @@ html {
   background-position: center;
 }
 
-//Parte de presentacion 
+//Parte de presentacion
 .contenedor-1 {
   padding: 150px;
 }
@@ -54,11 +52,12 @@ html {
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
+  height: auto;
   h3 {
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Lato', sans-serif;
     font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
@@ -84,7 +83,7 @@ html {
   display: flex;
 }
 
-.social-menu ul li{
+.social-menu ul li {
   list-style: none;
   margin: 0 15px;
 }
@@ -92,8 +91,8 @@ html {
 .social-menu ul li .fa {
   font-size: 30px;
   line-height: 40px;
-  transform: .6s;
-  -webkit-transition: .6s;
+  transform: 0.6s;
+  -webkit-transition: 0.6s;
   color: #000;
 }
 
@@ -101,7 +100,7 @@ html {
   color: #fff;
 }
 
-.social-menu ul li a{
+.social-menu ul li a {
   position: relative;
   display: block;
   height: 40px;
@@ -109,33 +108,32 @@ html {
   border-radius: 40px;
   background-color: #fff;
   text-align: center;
-  transition: .6s;
-  -webkit-transition: .6s;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
   box-shadow: 0 5px 4px grey;
 }
 
-.social-menu ul li a:hover{
+.social-menu ul li a:hover {
   transform: translate(0, -10px);
-
 }
 
-.social-menu ul li:nth-child(1) a:hover{
+.social-menu ul li:nth-child(1) a:hover {
   background-color: #25d366;
 }
-.social-menu ul li:nth-child(2) a:hover{
+.social-menu ul li:nth-child(2) a:hover {
   background-color: #0a66c2;
 }
-.social-menu ul li:nth-child(3) a:hover{
+.social-menu ul li:nth-child(3) a:hover {
   background-color: #e4405f;
 }
-.social-menu ul li:nth-child(4) a:hover{
+.social-menu ul li:nth-child(4) a:hover {
   background-color: #25282e;
 }
-.social-menu ul li:nth-child(5) a:hover{
+.social-menu ul li:nth-child(5) a:hover {
   background-color: #2a2f3b;
 }
 
-footer{
+footer {
   position: sticky;
   bottom: 0;
 }
@@ -147,7 +145,7 @@ footer{
   .contenedor-1 {
     display: block;
   }
-  .navbar-collapse{
+  .navbar-collapse {
     text-align: inherit;
     width: 100%;
     font-size: 10px;
@@ -155,24 +153,21 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width: 380px) {
-  .social-menu{
-    li{
+  .social-menu {
+    li {
       margin: 0px 2px 0px 2px !important;
     }
-    a.dropdown-item{
+    a.dropdown-item {
       font-size: 10px;
     }
   }
-  }
+}
 
-@media (min-width:320px) and (max-width: 991px){
-  ul.dropdown-menu{
+@media (min-width: 320px) and (max-width: 991px) {
+  ul.dropdown-menu {
     text-align: center;
   }
   a.dropdown-item {
-    
-      font-size: 12px;
-    
+    font-size: 12px;
   }
 }
-

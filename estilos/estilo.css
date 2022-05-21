@@ -31,7 +31,7 @@ a:hover:not(.button-proyecto) {
 
 .nav-link {
   color: black !important;
-  font-weight: 450; }
+  font-weight: 490; }
 
 .nav-item {
   letter-spacing: 5px;
@@ -60,6 +60,12 @@ header.abajo {
   background-color: white;
   transition: 2.5s; }
 
+h1.abajo {
+  color: white; }
+
+p.abajo {
+  color: white; }
+
 .navbar ul li a {
   cursor: pointer;
   border-radius: 10px;
@@ -79,7 +85,7 @@ header.abajo {
   background-color: black;
   margin-block: 10px;
   border-radius: 4px;
-  transition: transform .5s, opacity .25s; }
+  transition: transform 0.5s, opacity 0.25s; }
 
 .hamburger.active .line:nth-child(1) {
   transform: translateY(13px) rotate(45deg); }
@@ -144,7 +150,7 @@ header.abajo {
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Lato', sans-serif;
     font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
@@ -176,7 +182,7 @@ header.abajo {
   .flip-card-back .button-proyecto:hover {
     color: white; }
   .flip-card-back .button-proyecto::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: -50px;
@@ -189,6 +195,9 @@ header.abajo {
   .flip-card-back .button-proyecto:hover::before {
     width: 150%; }
 
+img.avatar {
+  border: 12px solid white; }
+
 * {
   margin: 0;
   padding: 0;
@@ -200,7 +209,7 @@ html {
 
 .parallax {
   /* The image used */
-  background-image: url("https://jarallax.nkdev.info/images/image5.jpg");
+  background-image: url("../img/FondoPortafolioBian.jpg");
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -229,12 +238,13 @@ html {
   background-color: white;
   text-align: center;
   padding: 50px 80px;
-  text-align: justify; }
+  text-align: justify;
+  height: auto; }
   .contenedor-presentacion h3 {
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Lato', sans-serif;
     font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
@@ -263,8 +273,8 @@ html {
 .social-menu ul li .fa {
   font-size: 30px;
   line-height: 40px;
-  transform: .6s;
-  -webkit-transition: .6s;
+  transform: 0.6s;
+  -webkit-transition: 0.6s;
   color: #000; }
 
 .social-menu ul li .fa:hover {
@@ -278,8 +288,8 @@ html {
   border-radius: 40px;
   background-color: #fff;
   text-align: center;
-  transition: .6s;
-  -webkit-transition: .6s;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
   box-shadow: 0 5px 4px grey; }
 
 .social-menu ul li a:hover {
